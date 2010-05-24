@@ -20,7 +20,7 @@ function addRow()
 	
 	sw.addEventListener('change', function(e)
 	{
-		Ti.API.info('parent for switch ' + e.source.parent)
+		Ti.API.info('parent for switch ' + e.source.parent);
 		clickLabel.text = 'Switch changed to ' + e.value + ' at ' + new Date();
 	});
 	
@@ -46,15 +46,15 @@ var row = Ti.UI.createTableViewRow({height:50});
 var l = Ti.UI.createLabel({
 	text:'Append Row',
 	color:'#999',
-	textAlign:'center',
+	textAlign:'center'
 
 });
 row.add(l);
-row.className = 'header'
+row.className = 'header';
 row.addEventListener('click', function()
 {
 	tableView.appendRow(addRow());
-})
+});
 data[0] = row;
 
 for (var x=1;x<3;x++)

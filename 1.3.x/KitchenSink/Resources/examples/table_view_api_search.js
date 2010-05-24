@@ -15,7 +15,7 @@ var search = Titanium.UI.createSearchBar({
 });
 search.addEventListener('change', function(e)
 {
-   e.value // search string as user types
+   e.value; // search string as user types
 });
 search.addEventListener('return', function(e)
 {

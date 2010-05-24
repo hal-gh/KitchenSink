@@ -81,4 +81,4 @@ var l2 = Ti.UI.createLabel({
 	font:{fontSize:12}
 });
 
-win.add(l2)
+win.add(l2);

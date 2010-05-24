@@ -99,7 +99,7 @@ var cost2 = Ti.UI.createLabel({
 	left:10,
 	height:25,
 	width:150
-})	
+});
 row2.add(cost2);
 
 var add2 = Ti.UI.createButton({

@@ -98,7 +98,7 @@ updateUI = function(e) {
 	}
 	
 	tableView.setData(data);
-}
+};
 
 serviceBrowser.addEventListener('updatedServices', updateUI);
 

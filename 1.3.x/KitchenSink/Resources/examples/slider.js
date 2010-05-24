@@ -211,7 +211,7 @@ titleButton.addEventListener('click', function()
 win.add(basicSliderLabel);
 win.add(basicSlider);
 win.add(toggleButton);
-Ti.API.info('platform = ' + Titanium.Platform.osname)
+Ti.API.info('platform = ' + Titanium.Platform.osname);
 if (Titanium.Platform.osname == 'iphone' || Titanium.Platform.osname == 'ipad')
 {
 	win.add(navbarButton);

@@ -4,7 +4,7 @@ var search = Titanium.UI.createSearchBar({
 	barColor:'#000', 
 	showCancel:true,
 	height:43,
-	top:0,
+	top:0
 });
 
 win.add(search);
@@ -117,9 +117,9 @@ search.addEventListener('return', function(e)
 });
 search.addEventListener('focus', function(e)
 {
-   	Titanium.API.info('search bar: focus received')
+   	Titanium.API.info('search bar: focus received');
 });
 search.addEventListener('blur', function(e)
 {
-   	Titanium.API.info('search bar:blur received')
+   	Titanium.API.info('search bar:blur received');
 });

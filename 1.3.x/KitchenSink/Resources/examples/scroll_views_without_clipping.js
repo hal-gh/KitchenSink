@@ -93,7 +93,7 @@ var tableview3 = Titanium.UI.createTableView({
 	backgroundColor:'transparent',
 	separatorStyle:0,
 	transform:t3,
-	visible:true,
+	visible:true
 
 });
 
@@ -120,7 +120,7 @@ var scrollView = Titanium.UI.createScrollableView({
 	top:10,
 	left:30,
 	right:30,
-	height:330,
+	height:330
 });
 win.add(scrollView);
 

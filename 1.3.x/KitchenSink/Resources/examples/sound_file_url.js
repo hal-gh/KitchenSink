@@ -170,7 +170,7 @@ var i = setInterval(function()
 {
 	if (sound.isPlaying())
 	{
-		Ti.API.info('time ' + sound.time)
+		Ti.API.info('time ' + sound.time);
 		pb.value = sound.time;
 
 	}

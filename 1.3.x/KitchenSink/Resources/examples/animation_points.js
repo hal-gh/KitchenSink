@@ -44,4 +44,4 @@ circle.animate(a, function()
 var interval = setInterval(function()
 {
 	l.text = 'center x: ' + circle.animatedCenter.x + ' y: ' + circle.animatedCenter.y;
-},1000)
+},1000);

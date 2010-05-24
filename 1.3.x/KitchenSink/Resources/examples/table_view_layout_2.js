@@ -10,7 +10,7 @@ var search = Titanium.UI.createSearchBar({
 });
 search.addEventListener('change', function(e)
 {
-   e.value // search string as user types
+   e.value; // search string as user types
 });
 search.addEventListener('return', function(e)
 {
@@ -44,7 +44,7 @@ data.push(row);
 // when you click the header, scroll to the bottom
 row.addEventListener('click',function()
 {
-	tableView.scrollToIndex(40,{animated:true,position:Ti.UI.iPhone.TableViewScrollPosition.TOP})
+	tableView.scrollToIndex(40,{animated:true,position:Ti.UI.iPhone.TableViewScrollPosition.TOP});
 });
 
 // create update row (used when the user clicks on the row)
@@ -86,7 +86,7 @@ for (var c=1;c<50;c++)
 		left:10,
 		width:50,
 		height:50,
-		clickName:'photo',
+		clickName:'photo'
 	});
 	row.add(photo);
 	
@@ -174,7 +174,7 @@ tableView.addEventListener('click', function(e)
 	var rowNum = e.index;
 	var updateRow = createUpdateRow('You clicked on the '+e.source.clickName);
 	tableView.updateRow(rowNum,updateRow,{animationStyle:Titanium.UI.iPhone.RowAnimationStyle.LEFT});	
-})
+});
 
 win.add(tableView);
 

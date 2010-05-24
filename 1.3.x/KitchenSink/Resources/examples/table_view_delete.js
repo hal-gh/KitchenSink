@@ -1,6 +1,6 @@
 var win = Titanium.UI.currentWindow;
 
-var data = []
+var data = [];
 // create the rest of the rows
 for (var c=0;c<50;c++)
 {

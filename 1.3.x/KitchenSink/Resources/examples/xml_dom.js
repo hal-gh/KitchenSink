@@ -165,7 +165,7 @@ function nodewalker(node)
 	{
 		if (i==0) 
 		{
-			nodewalker(node.firstChild)
+			nodewalker(node.firstChild);
 		} 
 		else 
 		{

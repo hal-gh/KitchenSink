@@ -37,7 +37,7 @@ Ti.API.info('spaceAvailable = ' + dir.spaceAvailable());
 
 var newDir = Titanium.Filesystem.getFile(Titanium.Filesystem.applicationDataDirectory,'mydir');
 newDir.createDirectory();
-Ti.API.info('newdir ' + newDir)
+Ti.API.info('newdir ' + newDir);
 var newFile = Titanium.Filesystem.getFile(newDir.nativePath,'newfile.txt');
 newFile.write(f.read());
 Ti.API.info('directoryListing for newDir = ' + newDir.getDirectoryListing());

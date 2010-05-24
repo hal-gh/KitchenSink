@@ -8,7 +8,7 @@ var label = Ti.UI.createLabel({
 });
 
 var act = Ti.UI.createActivityIndicator({
-	bottom:10,
+	bottom:10
 });
 act.style = Titanium.UI.iPhone.ActivityIndicatorStyle.DARK;
 act.font = {fontFamily:'Helvetica Neue', fontSize:15,fontWeight:'bold'};

@@ -10,11 +10,11 @@ var startAudio = Titanium.UI.createButton({
 });
 startAudio.addEventListener('click', function()
 {
-	if (count == 4)count=0; else count++
+	if (count == 4)count=0; else count++;
 	Ti.API.info('playing audio with mode ' + modeArray[count].desc + ' count ' + count);
 	audio.audioSessionMode = modeArray[count].mode;
-	l.text = modeArray[count].desc
-	audio.start()
+	l.text = modeArray[count].desc;
+	audio.start();
 });
 
 var stopAudio = Titanium.UI.createButton({
@@ -36,11 +36,11 @@ var startSound = Titanium.UI.createButton({
 });
 startSound.addEventListener('click', function()
 {
-	if (count == 4)count=0; else count++
+	if (count == 4)count=0; else count++;
 	Ti.API.info('playing sound with mode ' + modeArray[count].desc + ' count ' + count);
 	sound.audioSessionMode = modeArray[count].mode;
 	l.text = modeArray[count].desc;
-	sound.play()
+	sound.play();
 	
 });
 
@@ -52,7 +52,7 @@ var stopSound = Titanium.UI.createButton({
 });
 stopSound.addEventListener('click', function()
 {
-	sound.stop()
+	sound.stop();
 });
 
 var l = Ti.UI.createLabel({

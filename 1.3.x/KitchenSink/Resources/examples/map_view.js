@@ -138,7 +138,7 @@ sv.addEventListener('click', function()
 mapview.addEventListener('complete', function()
 {
 	Ti.API.info("map has completed loaded region");
-})
+});
 
 
 var flexSpace = Titanium.UI.createButton({
@@ -261,7 +261,7 @@ mapview.addEventListener('click',function(evt)
 	// custom annotation attribute
 	var myid = (evt.annotation)?evt.annotation.myid:-1;
 
-	Ti.API.info('mapview click clicksource = ' + clickSource)
+	Ti.API.info('mapview click clicksource = ' + clickSource);
 	// use custom event attribute to determine if atlanta annotation was clicked
 	if (myid == 3 && evt.clicksource == 'rightButton')
 	{
@@ -292,7 +292,7 @@ atlanta.addEventListener('click', function(evt)
 	// get event properties
 	var annotation = evt.source;
 	var clicksource = evt.clicksource;
-	Ti.API.info('atlanta annotation click clicksource = ' + clicksource)
+	Ti.API.info('atlanta annotation click clicksource = ' + clicksource);
 });
 
 apple.addEventListener('click', function(evt)
@@ -301,7 +301,7 @@ apple.addEventListener('click', function(evt)
 	// get event properties
 	var annotation = evt.source;
 	var clicksource = evt.clicksource;
-	Ti.API.info('atlanta annotation click clicksource = ' + clicksource)
+	Ti.API.info('atlanta annotation click clicksource = ' + clicksource);
 
 
 });

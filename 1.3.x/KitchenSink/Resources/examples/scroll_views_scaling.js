@@ -1,4 +1,4 @@
-var win = Titanium.UI.currentWindow
+var win = Titanium.UI.currentWindow;
 
 var scrollView = Titanium.UI.createScrollView({
 	contentWidth:'auto',

@@ -147,7 +147,7 @@ b6.addEventListener('click', function()
 		{
 			tf1.autocapitalization = Titanium.UI.TEXT_AUTOCAPITALIZATION_ALL;
 			b6.title = 'Capital (all)';
-			auto=0
+			auto=0;
 			break;
 		}
 	}
@@ -164,7 +164,7 @@ var b7 = Titanium.UI.createButton({
 var clear =0;
 b7.addEventListener('click', function()
 {
-	Ti.API.info('clearButtonMode ' + tf1.clearButtonMode)
+	Ti.API.info('clearButtonMode ' + tf1.clearButtonMode);
 	
 	switch (clear)
 	{
@@ -193,7 +193,7 @@ b7.addEventListener('click', function()
 		{
 			b7.title = 'Clear Button (B)';
 			tf1.clearButtonMode = Titanium.UI.INPUT_BUTTONMODE_ONBLUR;
-			clear=0
+			clear=0;
 			break;
 		}
 	}	

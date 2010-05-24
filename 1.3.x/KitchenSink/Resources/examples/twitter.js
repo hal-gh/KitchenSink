@@ -42,7 +42,7 @@ function getTweets(screen_name){
 					left:5,
 					top:5,
 					bottom:5,
-					right:5,
+					right:5
 				});
 
 				var av = Ti.UI.createImageView({

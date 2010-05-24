@@ -2,7 +2,7 @@
 //  This is a test that is meant to verify that a row object can have a header 
 //  and the table view has no table view header - the header should be displayed
 
-var win = Titanium.UI.currentWindow
+var win = Titanium.UI.currentWindow;
 
 var inputData = [
 	{title:'row 1', header:'Header 1'},

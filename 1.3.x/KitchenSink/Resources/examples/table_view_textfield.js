@@ -8,7 +8,7 @@ function addRow(addTextArea)
 	{
 		tf1 = Titanium.UI.createTextArea({
 			color:'#336699',
-			width:250,
+			width:250
 		});	
 		
 	}
@@ -48,6 +48,6 @@ var tableView = Ti.UI.createTableView({
 });
 win.addEventListener('focus', function()
 {
-	Ti.API.info('window focus fired')
-})
+	Ti.API.info('window focus fired');
+});
 win.add(tableView);

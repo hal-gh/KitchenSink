@@ -1,7 +1,7 @@
 var win = Ti.UI.currentWindow;
 
 var tv = Ti.UI.createTableView({
-	style:Titanium.UI.iPhone.TableViewStyle.GROUPED,
+	style:Titanium.UI.iPhone.TableViewStyle.GROUPED
 });
 
 function setData()
@@ -14,13 +14,13 @@ function setData()
 		row.add(l1);
 		var image1 = Ti.UI.createImageView({url:'../images/chat.png', right:5,height:23, width:29});
 		row.add(image1);
-		data.push(row)
+		data.push(row);
 	}
 	tv.setData(data);
 }
 
 var refresh = Titanium.UI.createButton({
-	systemButton:Titanium.UI.iPhone.SystemButton.REFRESH,
+	systemButton:Titanium.UI.iPhone.SystemButton.REFRESH
 });
 refresh.addEventListener('click', function()
 {
@@ -28,7 +28,7 @@ refresh.addEventListener('click', function()
 	setTimeout(function()
 	{
 		setData();
-	},1000)
+	},1000);
 });
 
 if (Ti.Platform.name == 'iPhone OS') {

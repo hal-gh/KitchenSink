@@ -121,7 +121,7 @@ var b7 = Titanium.UI.createButton({
 	title:'Button With Image',
 	height:40,
 	width:200,
-	top:260,
+	top:260
 });
 b7.addEventListener('click', function()
 {
@@ -142,7 +142,7 @@ var b8 = Titanium.UI.createButton({
 	title:'Set Label',
 	height:40,
 	width:200,
-	top:310,
+	top:310
 });
 
 b8.addEventListener('click', function()

@@ -133,7 +133,7 @@ var tb4 = Titanium.UI.createTabbedBar({
 	top:100,
 	style:Titanium.UI.iPhone.SystemButtonStyle.BAR,
 	height:40,
-	index:1,
+	index:1
 });
 
 win.add(tb4);

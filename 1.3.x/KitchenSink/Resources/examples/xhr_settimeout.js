@@ -28,7 +28,7 @@ button1.addEventListener('click', function()
 	if (!withData)
 	{
 		withData=true;
-		label1.text = 'sending with data'
+		label1.text = 'sending with data';
 
 		var xhr = Ti.Network.createHTTPClient();
 		xhr.setTimeout(30000);
@@ -61,7 +61,7 @@ button1.addEventListener('click', function()
 	else
 	{
 		withData=false;
-		label1.text = 'sending without data'
+		label1.text = 'sending without data';
 		var xhr = Ti.Network.createHTTPClient();
 		xhr.setTimeout(30000);
 		var start;

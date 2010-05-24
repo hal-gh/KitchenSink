@@ -1,4 +1,4 @@
-var win = Titanium.UI.currentWindow
+var win = Titanium.UI.currentWindow;
 win.backgroundColor = '#000';
 
 var leftImage = Ti.UI.createView({
@@ -29,7 +29,7 @@ var scrollView = Titanium.UI.createScrollView({
 	height:50,
 	width:230,
 	borderRadius:10,
-	backgroundColor:'#13386c',
+	backgroundColor:'#13386c'
 
 });
 

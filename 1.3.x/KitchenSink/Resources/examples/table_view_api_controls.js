@@ -42,7 +42,7 @@ var tableview = Titanium.UI.createTableView({
 	data:data,
 	style: Titanium.UI.iPhone.TableViewStyle.GROUPED,
 	//rowHeight:80,
-	minRowHeight:80,
+	minRowHeight:80
 	//maxRowHeight:500,
 });
 

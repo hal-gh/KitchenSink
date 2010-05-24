@@ -94,8 +94,8 @@ SOAPClient._loadWsdl = function(url, method, parameters, async, callback)
 	};
 	xmlHttp.onerror = function(e)
 	{
-		Ti.API.error('WSDL ERROR ' + e)
-	}
+		Ti.API.error('WSDL ERROR ' + e);
+	};
 	xmlHttp.send(null);
 
 	// if (!async)

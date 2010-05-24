@@ -35,7 +35,7 @@ tableView.addEventListener('click', function(e)
 		{
 			var row = Ti.UI.createTableViewRow();
 			var label = Ti.UI.createLabel({text:'New Row Object Row'});
-			row.add(label)
+			row.add(label);
 			tableView.insertRowBefore(0,row);				
 			break;
 		}

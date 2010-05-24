@@ -74,7 +74,7 @@ var tableview = Titanium.UI.createTableView({
 tableview.addEventListener('click', function(e)
 {
 	if (e.index == 0)
-	tableview.index = index2
+	tableview.index = index2;
 	// event data
 	var index = e.index;
 	var section = e.section;
