@@ -32,8 +32,8 @@ var data = [
 ];
 
 // add iphone specific tests
-if (Titanium.Platform.name == 'iPhone OS')
-{
+//if (Titanium.Platform.name == 'iPhone OS')
+//{
 	// these are mostly working in android but require minor fixes
 	
 	data.push({title:'Table View (Layout 3)', hasChild:true, test:'../examples/table_view_layout_3.js'});
@@ -62,7 +62,7 @@ if (Titanium.Platform.name == 'iPhone OS')
 	data.push({title:'Touch Events', hasChild:true, test:'../examples/table_view_touch.js'});
 	data.push({title:'Edit and Move', hasChild:true, test:'../examples/table_view_edit_and_move.js'});
 
-}
+//}
 // create table view
 var tableViewOptions = {
 		data:data,

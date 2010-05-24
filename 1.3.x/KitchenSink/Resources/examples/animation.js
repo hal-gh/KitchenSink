@@ -18,8 +18,13 @@ var data = [
 	{title:'Anchor Point', hasChild:true, test:'../examples/anchor_point.js'},
 	{title:'Image Scaling', hasChild:true, test:'../examples/image_scaling.js'},
 	{title:'Animation Points', hasChild:true, test:'../examples/animation_points.js'}
-
 ];
+
+if (Ti.Platform.name == 'android') {
+	data.splice(0,4); // remove Basic, Transitions, Windows, Views animations that do not work for android
+	data.splice(5,1); // remove Animation Points animations that do not work for android
+}
+
 
 // create table view
 var tableview = Titanium.UI.createTableView({
