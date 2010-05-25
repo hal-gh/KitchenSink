@@ -1,6 +1,6 @@
 var win = Titanium.UI.currentWindow;
 
-if (Ti.Network.networkType == Ti.Network.NETWORK_NONE) {
+if (Ti.Network.networkTypeName == 'NONE') {
 	var noNetworkMsg = Ti.UI.createLabel({
 		text: "Note: There is currently no internet connection, so you won't be able to see the initial image",
 		bottom: 20,
