@@ -1,6 +1,6 @@
 var win = Titanium.UI.currentWindow;
 
-var f = Ti.Filesystem.getFile(Titanium.Filesystem.resourcesDirectory,'images/apple_logo.jpg');
+var f = Ti.Filesystem.getFile(Titanium.Filesystem.resourcesDirectory,'images/appcelerator_small.png');
 
 var imageView = Titanium.UI.createImageView({
 	image:f,
@@ -22,5 +22,5 @@ win.add(l);
 
 imageView.addEventListener('click', function()
 {
-	Titanium.UI.createAlertDialog({title:'Image View', message:'You clicked me!'}).show();
+	Titanium.UI.createAlertDialog({title:'Image View', message:'You clicked the image!'}).show();
 });
